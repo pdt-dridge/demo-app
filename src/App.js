@@ -23,7 +23,6 @@ class App extends React.Component {
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
           height: 500,
-          menubar: tools,
           plugins: [
             'a11ychecker advcode advlist anchor autolink code fullscreen help image imagetools tinydrive',
             ' lists link media noneditable powerpaste preview',
