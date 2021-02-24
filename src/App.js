@@ -12,6 +12,7 @@ class App extends React.Component {
 
   render() {
     return (
+      <p>Edit this editor here:</p>
       <Editor
         initialValue="<p>Initial content</p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
