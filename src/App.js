@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Editor } from '@tinymce/tinymce-react';
-import pdlogo from '../public/PagerDuty-Logo.png';
+import pdlogo from './images/PagerDuty-Logo.png';
 
 class App extends React.Component {
   handleEditorChange = (e) => {
