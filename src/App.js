@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
     <div className="App">
       <div>
-        <p><img src="https://download.logo.wine/logo/PagerDuty/PagerDuty-Logo.wine.png" alt="" width="151" height="56" /></p>
+        <p><img src="https://download.logo.wine/logo/PagerDuty/PagerDuty-Logo.wine.png" alt="" width="300px" height="200px" /></p>
         <h2>Status Update Email Notifications</h2>
       </div>
       <Editor
