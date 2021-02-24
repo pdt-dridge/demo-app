@@ -12,7 +12,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <p>Edit this editor here:</p>
+    <div className="App">
+        <p>
+          Edit <code>src/App.js</code> and save to reload this page.
+        </p>
+
       <Editor
         initialValue="<p>Initial content</p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
@@ -32,6 +36,8 @@ class App extends React.Component {
         }}
         onChange={this.handleEditorChange}
       />
+      
+    </div>
     );
   }
 }
