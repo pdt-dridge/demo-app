@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Editor } from '@tinymce/tinymce-react';
+import pdlogo from '../public/PagerDuty-Logo.png';
 
 class App extends React.Component {
   handleEditorChange = (e) => {
@@ -14,7 +15,7 @@ class App extends React.Component {
     return (
     <div className="App">
       <div>
-        <p><img src="https://download.logo.wine/logo/PagerDuty/PagerDuty-Logo.wine.png" alt="" width="300px" height="200px" /></p>
+        <p><img src={pdlogo} alt="" width="300px" height="200px" /></p>
         <h2>Status Update Email Notifications</h2>
       </div>
       <Editor
