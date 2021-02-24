@@ -13,10 +13,10 @@ class App extends React.Component {
   render() {
     return (
     <div className="App">
-        <p>
-          Edit <code>src/App.js</code> and save to reload this page.
-        </p>
-
+      <div>
+        <p><img src="https://download.logo.wine/logo/PagerDuty/PagerDuty-Logo.wine.png" alt="" width="151" height="56" /></p>
+        <h2>Status Update Email Notifications</h2>
+      </div>
       <Editor
         initialValue="<p>Initial content</p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
@@ -36,7 +36,10 @@ class App extends React.Component {
         }}
         onChange={this.handleEditorChange}
       />
-      
+       <p>
+          Edit <code>src/App.js</code> and save to reload this page.
+        </p>
+
     </div>
     );
   }
