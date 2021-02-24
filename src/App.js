@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
     <div className="App">
       <div>
-        <p><img src={pdlogo} alt="" width="300px" height="200px" /></p>
+        <p><img src={pdlogo} alt="pd-logo" /></p>
         <h2>Status Update Email Notifications</h2>
       </div>
       <Editor
