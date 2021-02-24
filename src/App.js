@@ -23,7 +23,7 @@ class App extends React.Component {
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
           height: 500,
-          menubar: 'edit view insert format tools table help'  // skip file
+          menubar: 'edit view insert format tools table help',
           plugins: [
             'a11ychecker advcode advlist anchor autolink code fullscreen help image imagetools',
             ' lists link media noneditable powerpaste preview',
