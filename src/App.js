@@ -23,17 +23,19 @@ class App extends React.Component {
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
           height: 500,
-          menubar: false,
+          menubar: tools,
           plugins: [
-            'advlist autolink lists link image',
-            'charmap print preview anchor help',
-            'searchreplace visualblocks code',
-            'insertdatetime media table paste wordcount'
+            'a11ychecker advcode advlist anchor autolink code fullscreen help image imagetools tinydrive',
+            ' lists link media noneditable powerpaste preview',
+            ' searchreplace table template tinymcespellchecker visualblocks wordcount'
           ],
           toolbar:
-            'undo redo | formatselect | bold italic | \
-            alignleft aligncenter alignright | \
-            bullist numlist outdent indent | help'
+              'template code | \
+               insertfile a11ycheck undo redo | formatselect | \
+               bold italic | forecolor backcolor | \
+               bullist numlist outdent indent | \
+               alignleft aligncenter alignright alignjustify | \
+               bullist numlist | help',
         }}
         onChange={this.handleEditorChange}
       />
