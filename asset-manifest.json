@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/demo-app/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/demo-app/static/js/main.ff4e1bd3.chunk.js",
-    "main.js.map": "/demo-app/static/js/main.ff4e1bd3.chunk.js.map",
+    "main.js": "/demo-app/static/js/main.e9e1e353.chunk.js",
+    "main.js.map": "/demo-app/static/js/main.e9e1e353.chunk.js.map",
     "runtime-main.js": "/demo-app/static/js/runtime-main.53b63458.js",
     "runtime-main.js.map": "/demo-app/static/js/runtime-main.53b63458.js.map",
     "static/js/2.dbd6ac22.chunk.js": "/demo-app/static/js/2.dbd6ac22.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.9f91fb22.chunk.js.map": "/demo-app/static/js/3.9f91fb22.chunk.js.map",
     "index.html": "/demo-app/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/demo-app/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.dbd6ac22.chunk.js.LICENSE.txt": "/demo-app/static/js/2.dbd6ac22.chunk.js.LICENSE.txt"
+    "static/js/2.dbd6ac22.chunk.js.LICENSE.txt": "/demo-app/static/js/2.dbd6ac22.chunk.js.LICENSE.txt",
+    "static/media/PagerDuty-Logo.b98a1304.png": "/demo-app/static/media/PagerDuty-Logo.b98a1304.png"
   },
   "entrypoints": [
     "static/js/runtime-main.53b63458.js",
     "static/js/2.dbd6ac22.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ff4e1bd3.chunk.js"
+    "static/js/main.e9e1e353.chunk.js"
   ]
 }
