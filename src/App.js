@@ -67,9 +67,9 @@ class App extends React.Component {
               content: '<p>Name: {$preview_username}, StaffID: {$preview_staffid}</p>'
             },
             {
-              title: 'Replace values preview and content example',
-              description: 'These values are replaced in the preview, and in the content.',
-              content: '<p><img src="https://logos-download.com/wp-content/uploads/2016/12/DBS_Bank_logo_logotype.png" alt="DBS logo" width="114" height="40" />&nbsp;</p> <table style="height: 185px; width: 630px;"> <tbody> <tr> <td style="width: 160px;">Date</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">Application</td> <td style="width: 454px;">{$businessService}</td> </tr> <tr> <td style="width: 160px;">Overall Incident Status</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">Priority</td> <td style="width: 454px;">{$priority}</td> </tr> <tr> <td style="width: 160px;">Severity</td> <td style="width: 454px;">{$severity}</td> </tr> <tr> <td style="width: 160px;">Incident Number</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">Incident Summary</td> <td style="width: 454px;">{$incidentSummary}</td> </tr> <tr> <td style="width: 160px;">&nbsp;</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">Latest Update:</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">&lt;time class="mdate"&gt;This will be replaced with the date modified.&lt;/time&gt;</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">Previous Updates:</td> <td style="width: 454px;">&nbsp;</td> </tr> <tr> <td style="width: 160px;">&nbsp;</td> <td style="width: 454px;"> <p>{$previousUpdates}</p> </td> </tr> </tbody> </table>'
+              title: 'DBS Incident Management',
+              description: 'Template for DBS Incident Management Status Updates',
+              url: "templates/dbsTemplate.html"
             }
           ],
         }}
