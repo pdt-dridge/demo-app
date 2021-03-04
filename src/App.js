@@ -69,7 +69,7 @@ class App extends React.Component {
             {
               title: 'DBS Incident Management',
               description: 'Template for DBS Incident Management Status Updates',
-              url: "/src/templates/dbsTemplate.html"
+              url: "../src/templates/dbsTemplate.html"
             }
           ],
         }}
