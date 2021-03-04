@@ -13,7 +13,7 @@ class App extends React.Component {
 
   render() {
     return (
-    <div className="App" style="padding-left: 50px;">
+    <div className="App">
       <div>
         <p><img src={pdlogo} alt="" width="245px" height="62px" /></p>
         <h2>Status Update Email Notifications</h2>
