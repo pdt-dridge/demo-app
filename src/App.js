@@ -21,8 +21,8 @@ class App extends React.Component {
       <Editor initialValue="<p>Select a Template</p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
-          height: 500,
-          width: 80%,
+          height: "500",
+          width: "80%",
           menubar: 'edit view insert format tools table help',
           plugins: [
             'a11ychecker advcode advlist anchor autolink code fullscreen help image imagetools',
