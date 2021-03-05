@@ -18,7 +18,8 @@ class App extends React.Component {
         <p><img src={pdlogo} alt="" width="245px" height="62px" /></p>
         <h2>Status Update Email Notifications</h2>
       </div>
-      <Editor initialValue="<p>Select a Template</p>"
+      <Editor 
+        initialValue="<p>Select a Template</p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
           height: "500",
@@ -69,7 +70,7 @@ class App extends React.Component {
             {
               title: 'DBS Incident Management',
               description: 'Template for DBS Incident Management Status Updates',
-              url: "../src/templates/dbsTemplate.html"
+              url: "template/dbsTemplate.html"
             }
           ],
         }}
