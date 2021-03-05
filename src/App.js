@@ -20,7 +20,7 @@ class App extends React.Component {
         <h2>Status Update Email Notifications</h2>
       </div>
       <Editor 
-        initialValue="<p>Select a Template</p>"
+        initialValue="<p>^^ Select a Template from the icon above</p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
           height: "500",
