@@ -2,6 +2,7 @@
 import React from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 import pdlogo from './images/PagerDuty-Logo.png';
+import {getTemplates} from 'template/templateList.js';
 
 class App extends React.Component {
   handleEditorChange = (e) => {
@@ -54,18 +55,7 @@ class App extends React.Component {
             incidentSummary: 'todo: incident.summary',
             previousUpdates: 'todo: getPrevUpdates()',
           },
-          templates : [
-            {
-              title: 'Date modified example',
-              description: 'Adds a timestamp indicating the last time the document modified.',
-              content: '<p>Last Modified: <time class="mdate">This will be replaced with the date modified.</time></p>'
-            },
-            {
-              title: 'DBS Incident Management',
-              description: 'Template for DBS Incident Management Status Updates',
-              url: "template/dbsTemplate.html"
-            }
-          ],
+          templates : getTemplates(),
         }}
         onChange={this.handleEditorChange}
       />
