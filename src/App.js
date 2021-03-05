@@ -2,7 +2,7 @@
 import React from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 import pdlogo from './images/PagerDuty-Logo.png';
-import {getTemplates} from 'template/templateList.js';
+import {getTemplates} from './templateList.js';
 
 class App extends React.Component {
   handleEditorChange = (e) => {
