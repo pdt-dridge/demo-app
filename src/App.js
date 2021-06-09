@@ -32,7 +32,7 @@ class App extends React.Component {
             ' searchreplace table template visualblocks wordcount'
           ],
           toolbar:
-              'template code a11ycheck | \
+              'template code | \
                undo redo | \
                formatselect | \
                bold italic forecolor backcolor | \
