@@ -27,9 +27,9 @@ class App extends React.Component {
           width: "80%",
           menubar: 'edit view insert format tools table help',
           plugins: [
-            'a11ychecker advcode advlist anchor autolink code fullscreen help image imagetools',
-            ' lists link media noneditable powerpaste preview',
-            ' searchreplace table template tinymcespellchecker visualblocks wordcount'
+            ' advlist anchor autolink code fullscreen help image imagetools',
+            ' lists link media noneditable preview',
+            ' searchreplace table template visualblocks wordcount'
           ],
           toolbar:
               'template code a11ycheck | \
