@@ -1,5 +1,6 @@
 
 import React from 'react';
+import {useLocation} from "react-router-dom";
 import { Editor } from '@tinymce/tinymce-react';
 import pdlogo from './images/PagerDuty-Logo.png';
 import {getTemplates} from './templateList.js';
@@ -14,8 +15,8 @@ class App extends React.Component {
 
   render() {
 
-    const search = this.props.location.search;
-    const incidentId = new URLSearchParams(search).get("incidentId");
+    const search = useLocation().search;
+    const incidentId = new URLSearchParams(search).get('incidentId');
 
     return (
     <div className="App">
