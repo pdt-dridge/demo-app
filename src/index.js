@@ -4,12 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const windowUrl = window.location.search;
-const urlParams = new URLSearchParams(windowUrl);
-
 ReactDOM.render(
   <React.StrictMode>
-    <App incidentId="ABCD1234" />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

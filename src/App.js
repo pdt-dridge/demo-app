@@ -13,14 +13,18 @@ class App extends React.Component {
   }
 
   render() {
+
+    const search = this.props.location.search;
+    const incidentId = new URLSearchParams(search).get("incidentId");
+
     return (
     <div className="App">
       <div>
         <p><img src={pdlogo} alt="" width="245px" height="62px" /></p>
-        <h2>Status Update Email Notifications</h2>
+        <h2>Status Update Email Notifications for Incident {incidentId} </h2>
       </div>
       <Editor 
-        initialValue="<p>^^ Select a Template from the icon above for incident {this.props.name} </p>"
+        initialValue="<p>^^ Select a Template from the icon above for incident {incidentId} </p>"
         apiKey="mv9mc9l0bmixqowosqc3mq7nekrezxptz3zlsgfohlj7zscf"
         init={{
           height: "500",
