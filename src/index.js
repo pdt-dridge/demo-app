@@ -9,7 +9,7 @@ const urlParams = new URLSearchParams(windowUrl);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App incidentId={urlParams.incidentId} />
+    <App incidentId="ABCD1234" />
   </React.StrictMode>,
   document.getElementById('root')
 );
